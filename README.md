@@ -263,7 +263,7 @@
 
         <section id="languages">
             <h2>LANGUAGES</h2>
-            <p><strong>Indonesia</strong> (Native/Bilingual)</p>
+            <p><strong>Indonesia</strong> </p>
         </section>
 
         <footer>
