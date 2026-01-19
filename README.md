@@ -1,166 +1,140 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Migi Setyo Sugiarto Adi</title>
+    <title>Migi Setyo Sugiarto Adi - Portfolio</title>
     <style>
         :root {
-            --primary: #1e293b;
-            --secondary: #334155;
-            --accent: #2563eb;
-            --bg: #f1f5f9;
-            --white: #ffffff;
-            --text-dark: #0f172a;
-            --text-light: #64748b;
+            --primary-color: #2c3e50;
+            --secondary-color: #34495e;
+            --accent-color: #3498db;
+            --text-color: #333;
+            --bg-color: #f4f7f6;
         }
 
         body {
-            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background-color: var(--bg);
-            color: var(--text-dark);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
             margin: 0;
             padding: 0;
         }
 
         .container {
-            max-width: 850px;
+            max-width: 900px;
             margin: 40px auto;
-            background: var(--white);
+            background: #fff;
             padding: 50px;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
             position: relative;
         }
 
-        /* Tombol Download Kanan Atas */
+        header {
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
         .download-btn {
             position: absolute;
-            top: 40px;
+            top: 50px;
             right: 50px;
-            background-color: var(--accent);
+            background-color: var(--accent-color);
             color: white;
             padding: 10px 20px;
             text-decoration: none;
-            border-radius: 6px;
-            font-weight: 600;
-            font-size: 14px;
-            transition: 0.3s;
-            box-shadow: 0 4px 6px rgba(37, 99, 235, 0.2);
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
         }
 
         .download-btn:hover {
-            background-color: #1d4ed8;
-            transform: translateY(-2px);
-        }
-
-        header {
-            border-bottom: 2px solid #e2e8f0;
-            padding-bottom: 25px;
-            margin-bottom: 30px;
+            background-color: #2980b9;
         }
 
         h1 {
             margin: 0;
-            font-size: 28px;
-            letter-spacing: -0.5px;
+            color: var(--primary-color);
+            font-size: 2.5em;
+            text-transform: uppercase;
         }
 
         .contact-info {
-            color: var(--text-light);
-            font-size: 14px;
-            margin-top: 8px;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #666;
         }
 
         h2 {
-            font-size: 16px;
+            color: var(--primary-color);
+            border-left: 5px solid var(--accent-color);
+            padding-left: 15px;
+            margin-top: 40px;
             text-transform: uppercase;
-            letter-spacing: 1.5px;
-            color: var(--accent);
-            margin-top: 35px;
-            border-bottom: 1px solid #e2e8f0;
-            padding-bottom: 5px;
+            font-size: 1.3em;
         }
 
-        .summary {
-            background: #f8fafc;
-            padding: 20px;
-            border-radius: 8px;
-            font-size: 15px;
-            color: var(--secondary);
-        }
-
-        .exp-item {
-            margin-bottom: 25px;
-        }
-
-        .exp-header {
+        .job-title {
+            font-weight: bold;
+            font-size: 1.1em;
             display: flex;
             justify-content: space-between;
-            font-weight: bold;
-            color: var(--text-dark);
         }
 
-        .company {
-            color: var(--secondary);
-            font-weight: 600;
+        .company-info {
             font-style: italic;
+            color: var(--secondary-color);
+            margin-bottom: 5px;
         }
 
         .location {
-            font-size: 12px;
-            color: var(--text-light);
-            margin-bottom: 8px;
+            font-size: 0.85em;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+
+        .experience-item {
+            margin-bottom: 25px;
         }
 
         ul {
             padding-left: 20px;
-            margin-top: 5px;
         }
 
-        li {
-            font-size: 14.5px;
-            margin-bottom: 4px;
-        }
-
-        /* Desain Visual Skills */
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-template-columns: 1fr 1fr;
             gap: 10px;
-            margin-top: 15px;
         }
 
-        .skill-tag {
-            background: #eff6ff;
-            color: #1e40af;
-            padding: 10px;
-            border-radius: 6px;
-            font-size: 13px;
-            font-weight: 600;
-            text-align: center;
-            border: 1px solid #dbeafe;
+        .skill-item {
+            background: #ecf0f1;
+            padding: 8px 15px;
+            border-radius: 4px;
+            font-size: 0.9em;
         }
 
         footer {
             text-align: center;
-            font-size: 12px;
-            color: var(--text-light);
-            margin-top: 40px;
-            padding-bottom: 20px;
+            margin-top: 50px;
+            font-size: 0.8em;
+            color: #95a5a6;
         }
 
-        @media (max-width: 600px) {
-            .container { padding: 25px; margin: 10px; }
+        @media (max-width: 768px) {
+            .container { padding: 20px; margin: 10px; }
             .download-btn { position: static; display: block; text-align: center; margin-bottom: 20px; }
-            .exp-header { flex-direction: column; }
+            .skills-grid { grid-template-columns: 1fr; }
+            .job-title { flex-direction: column; }
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <a href="Migi Setyo Sugiarto Adi (9).pdf" class="download-btn" download>UNDUH PDF</a>
+        <a href="Migi_Setyo_Sugiarto_Adi.pdf" class="download-btn" download>Download PDF CV</a>
 
         <header>
             <h1>MIGI SETYO SUGIARTO ADI</h1>
@@ -169,25 +143,23 @@
             </div>
         </header>
 
-        <section>
-            <h2>Summary</h2>
-            <div class="summary">
-                [cite_start]Profesional Food & Beverage dengan pengalaman lebih dari 5 tahun di bidang operasional restoran, bar, dan manajemen toko[cite: 2]. 
-                [cite_start]Memiliki latar belakang sebagai Barista, Bartender, Admin Purchasing, hingga Store Manager[cite: 3]. 
-                [cite_start]Terbukti mampu mengelola inventory, menekan biaya operasional, dan menjaga standar layanan pelanggan[cite: 4].
-            </div>
+        <section id="summary">
+            <h2>SUMMARY</h2>
+            [cite_start]<p>Profesional Food & Beverage dengan pengalaman lebih dari 5 tahun di bidang operasional restoran, bar, dan manajemen toko[cite: 2]. [cite_start]Memiliki latar belakang sebagai Barista, Bartender, Admin Purchasing, hingga Store Manager[cite: 3]. [cite_start]Terbukti mampu mengelola inventory, menekan biaya operasional, menjaga standar layanan pelanggan, serta bekerja efektif lintas tim[cite: 4]. [cite_start]Terbiasa bekerja dengan SOP, target operasional, dan sistem manajemen berbasis data (Microsoft Excel)[cite: 5].</p>
         </section>
 
-        <section>
-            <h2>Professional Experience</h2>
+        <section id="objective">
+            <h2>OBJECTIVE</h2>
+            [cite_start]<p>Mencari posisi di bidang Food & Beverage Operations / Store Management / Purchasing untuk berkontribusi secara langsung dalam peningkatan efisiensi operasional, kualitas layanan pelanggan, serta pertumbuhan bisnis perusahaan[cite: 6].</p>
+        </section>
 
-            <div class="exp-item">
-                <div class="exp-header">
-                    <span>Bartender</span>
-                    <span>Februari 2025 - November 2025</span>
-                </div>
-                <div class="company">Suji Suan Cai Yu DP Mall Semarang</div>
-                <div class="location">Semarang Tengah, Kota Semarang</div>
+        <section id="experience">
+            <h2>PROFESSIONAL EXPERIENCE</h2>
+
+            <div class="experience-item">
+                <div class="job-title"><span>Bartender</span> <span>Februari 2025 - November 2025</span></div>
+                [cite_start]<div class="company-info">Suji Suan Cai Yu DP Mall Semarang [cite: 7]</div>
+                [cite_start]<div class="location">DP Mall Semarang L2.15, Sekayu, Semarang Tengah [cite: 8]</div>
                 <ul>
                     [cite_start]<li>Menyiapkan dan menyajikan minuman non-alkohol sesuai SOP perusahaan[cite: 8].</li>
                     [cite_start]<li>Mengelola stok bahan baku dan berhasil mengurangi waste hingga ±15%[cite: 9].</li>
@@ -195,70 +167,104 @@
                 </ul>
             </div>
 
-            <div class="exp-item">
-                <div class="exp-header">
-                    <span>Barista</span>
-                    <span>September 2024 - Januari 2025</span>
-                </div>
-                <div class="company">Cotti Coffee Pollux Paragon Semarang</div>
+            <div class="experience-item">
+                <div class="job-title"><span>Barista</span> <span>September 2024 - Januari 2025</span></div>
+                [cite_start]<div class="company-info">Cotti Coffee Pollux Paragon Semarang [cite: 10]</div>
+                <div class="location">Jl. Pemuda No.118, Sekayu, Kec. [cite_start]Semarang Tengah [cite: 11]</div>
                 <ul>
-                    [cite_start]<li>Menyajikan berbagai minuman kopi dan teh serta menjaga kualitas area kerja[cite: 11].</li>
-                    [cite_start]<li>Mengelola stok bahan baku dan melakukan pemeliharaan peralatan[cite: 13].</li>
+                    [cite_start]<li>Menyajikan berbagai minuman kopi dan teh, menjaga kualitas dan kebersihan area kerja[cite: 11].</li>
+                    [cite_start]<li>Mengelola pesanan dengan efisien dan menciptakan suasana ramah[cite: 12].</li>
+                    [cite_start]<li>Mengelola stok bahan baku dan pemeliharaan peralatan[cite: 13].</li>
                 </ul>
             </div>
 
-            <div class="exp-item">
-                <div class="exp-header">
-                    <span>Admin Purchasing</span>
-                    <span>Juli 2023 - Agustus 2024</span>
-                </div>
-                <div class="company">TOKO KOPI DJUARA</div>
+            <div class="experience-item">
+                <div class="job-title"><span>Admin Purchasing</span> <span>Juli 2023 - Agustus 2024</span></div>
+                [cite_start]<div class="company-info">TOKO KOPI DJUARA [cite: 13]</div>
+                <div class="location">Jl. [cite_start]Pleburan Barat No.10, Semarang Selatan [cite: 14]</div>
                 <ul>
                     [cite_start]<li>Mengelola proses pembelian, negosiasi dengan pemasok, serta pengawasan inventaris[cite: 14].</li>
-                    [cite_start]<li>Membuat laporan pembelian dan stok menggunakan Microsoft Excel[cite: 15].</li>
+                    [cite_start]<li>Membuat laporan pembelian dan stock menggunakan Microsoft Excel[cite: 15].</li>
+                    [cite_start]<li>Membantu efisiensi biaya operasional melalui kontrol pembelian rutin[cite: 16].</li>
                 </ul>
             </div>
 
-            <div class="exp-item">
-                <div class="exp-header">
-                    <span>Store Manager</span>
-                    <span>Juni 2021 - Agustus 2024</span>
-                </div>
-                <div class="company">KOPI REJEKI</div>
+            <div class="experience-item">
+                <div class="job-title"><span>Admin Purchasing</span> <span>Januari 2022 - Agustus 2024</span></div>
+                [cite_start]<div class="company-info">LAIV.IDN [cite: 16]</div>
+                <div class="location">Jl. [cite_start]Pleburan Barat No.33, Semarang Selatan [cite: 17]</div>
                 <ul>
-                    [cite_start]<li>Mengelola operasional harian toko, pengawasan staf, dan pengelolaan inventaris[cite: 20].</li>
-                    [cite_start]<li>Menangani keluhan pelanggan dan menjaga kualitas layanan[cite: 21].</li>
+                    [cite_start]<li>Bertanggung jawab untuk pemilihan vendor, negosiasi harga, dan penyusunan kontrak[cite: 17].</li>
+                    [cite_start]<li>Memastikan kualitas produk dan ketepatan waktu pengiriman[cite: 18].</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title"><span>Store Manager</span> <span>Juni 2021 - Agustus 2024</span></div>
+                [cite_start]<div class="company-info">KOPI REJEKI [cite: 19]</div>
+                <div class="location">Jl. [cite_start]Erlangga Barat 7 No.12, Pleburan [cite: 20]</div>
+                <ul>
+                    [cite_start]<li>Mengelola operasional harian toko, pengawasan staf, dan target penjualan[cite: 20].</li>
+                    [cite_start]<li>Menangani keluhan pelanggan dan melaksanakan strategi pemasaran[cite: 21].</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title"><span>Barista</span> <span>Januari 2020 - Juni 2021</span></div>
+                [cite_start]<div class="company-info">KOPI KENANGAN [cite: 22]</div>
+                <div class="location">DP Mall Semarang, Jl. [cite_start]Pemuda No.150 [cite: 23]</div>
+                <ul>
+                    [cite_start]<li>Menyajikan minuman berkualitas tinggi dan mengoperasikan mesin espresso[cite: 23, 24].</li>
+                    [cite_start]<li>Mengelola stok bahan baku serta menjaga kebersihan area kerja[cite: 24].</li>
+                </ul>
+            </div>
+
+            <div class="experience-item">
+                <div class="job-title"><span>Captain Waiters</span> <span>Mei 2015 - Agustus 2017</span></div>
+                [cite_start]<div class="company-info">KOENO KOENI CAFE & GALERY [cite: 25]</div>
+                <div class="location">Jl. [cite_start]Tabanan No.4, Tegalsari, Candisari [cite: 26]</div>
+                <ul>
+                    [cite_start]<li>Memimpin tim pelayan untuk pelayanan berkualitas tinggi[cite: 26].</li>
+                    [cite_start]<li>Koordinasi pesanan, pengaturan ruang makan, dan menangani keluhan pelanggan[cite: 27, 28].</li>
                 </ul>
             </div>
         </section>
 
-        <section>
-            <h2>Skills & Expertise</h2>
+        <section id="education">
+            <h2>EDUCATION</h2>
+            <div class="experience-item">
+                <div class="job-title"><span>Tata Boga</span> <span>2012 - 2015</span></div>
+                [cite_start]<div class="company-info">SMK NEGERI 6 SEMARANG [cite: 29]</div>
+                [cite_start]<p>Mempelajari teknik dasar dan lanjutan dalam memasak, pengolahan bahan makanan, serta presentasi hidangan[cite: 30]. [cite_start]Praktik langsung dalam persiapan menu dan pengembangan resep[cite: 31].</p>
+            </div>
+        </section>
+
+        <section id="certificates">
+            <h2>COURSES AND CERTIFICATES</h2>
+            <div class="experience-item">
+                <div class="job-title"><span>Certificate of Competency Serving Food & Beverages</span> <span>2015</span></div>
+                [cite_start]<div class="company-info">SMK 6 Semarang x Crown Plaza Hotel [cite: 32]</div>
+                [cite_start]<p>Memperoleh pengetahuan mendalam tentang praktik penyajian makanan dan standar kebersihan industri F&B[cite: 33].</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>SKILLS</h2>
             <div class="skills-grid">
-                <div class="skill-tag">Cost Control & Inventory</div>
-                <div class="skill-tag">Restaurant Operations</div>
-                <div class="skill-tag">Purchasing & Supplier</div>
-                <div class="skill-tag">Microsoft Excel</div>
-                <div class="skill-tag">Food Safety Management</div>
-                <div class="skill-tag">Leadership & Teamwork</div>
-                <div class="skill-tag">Handle Complaint</div>
-                <div class="skill-tag">Problem Solving</div>
+                <div class="skill-item">Cost Control & Inventory Management</div>
+                <div class="skill-item">Restaurant & Store Operations</div>
+                <div class="skill-item">Purchasing & Supplier Coordination</div>
+                <div class="skill-item">Food Safety Management System</div>
+                <div class="skill-item">Microsoft Excel (Reporting)</div>
+                <div class="skill-item">Leadership & Teamwork</div>
+                <div class="skill-item">Handle Complaint</div>
+                <div class="skill-item">Problem Solving</div>
             </div>
         </section>
 
-        <section>
-            <h2>Education</h2>
-            <div class="exp-item">
-                <div class="exp-header">
-                    <span>Tata Boga</span>
-                    <span>2012 - 2015</span>
-                </div>
-                <div class="company">SMK NEGERI 6 SEMARANG</div>
-                <ul>
-                    [cite_start]<li>Mempelajari teknik dasar dan lanjutan memasak serta pengolahan bahan makanan[cite: 30].</li>
-                    [cite_start]<li>Sertifikat Kompetensi Uji Keterampilan Penyajian Makanan dan Minuman (2015)[cite: 32, 33].</li>
-                </ul>
-            </div>
+        <section id="languages">
+            <h2>LANGUAGES</h2>
+            <p><strong>Indonesia</strong> (Native/Bilingual)</p>
         </section>
 
         <footer>
