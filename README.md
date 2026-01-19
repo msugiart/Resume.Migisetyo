@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -145,12 +144,12 @@
 
         <section id="summary">
             <h2>SUMMARY</h2>
-            [cite_start]<p>Profesional Food & Beverage dengan pengalaman lebih dari 5 tahun di bidang operasional restoran, bar, dan manajemen toko[cite: 2]. [cite_start]Memiliki latar belakang sebagai Barista, Bartender, Admin Purchasing, hingga Store Manager[cite: 3]. [cite_start]Terbukti mampu mengelola inventory, menekan biaya operasional, menjaga standar layanan pelanggan, serta bekerja efektif lintas tim[cite: 4]. [cite_start]Terbiasa bekerja dengan SOP, target operasional, dan sistem manajemen berbasis data (Microsoft Excel)[cite: 5].</p>
+            <p>Profesional Food & Beverage dengan pengalaman lebih dari 5 tahun di bidang operasional restoran, bar, dan manajemen toko. Memiliki latar belakang sebagai Barista, Bartender, Admin Purchasing, hingga Store Manager. Terbukti mampu mengelola inventory, menekan biaya operasional, menjaga standar layanan pelanggan, serta bekerja efektif lintas tim. Terbiasa bekerja dengan SOP, target operasional, dan sistem manajemen berbasis data (Microsoft Excel).</p>
         </section>
 
         <section id="objective">
             <h2>OBJECTIVE</h2>
-            [cite_start]<p>Mencari posisi di bidang Food & Beverage Operations / Store Management / Purchasing untuk berkontribusi secara langsung dalam peningkatan efisiensi operasional, kualitas layanan pelanggan, serta pertumbuhan bisnis perusahaan[cite: 6].</p>
+            <p>Mencari posisi di bidang Food & Beverage Operations / Store Management / Purchasing untuk berkontribusi secara langsung dalam peningkatan efisiensi operasional, kualitas layanan pelanggan, serta pertumbuhan bisnis perusahaan.</p>
         </section>
 
         <section id="experience">
@@ -158,74 +157,74 @@
 
             <div class="experience-item">
                 <div class="job-title"><span>Bartender</span> <span>Februari 2025 - November 2025</span></div>
-                [cite_start]<div class="company-info">Suji Suan Cai Yu DP Mall Semarang [cite: 7]</div>
-                [cite_start]<div class="location">DP Mall Semarang L2.15, Sekayu, Semarang Tengah [cite: 8]</div>
+                <div class="company-info">Suji Suan Cai Yu DP Mall Semarang</div>
+                <div class="location">DP Mall Semarang L2.15, Sekayu, Semarang Tengah</div>
                 <ul>
-                    [cite_start]<li>Menyiapkan dan menyajikan minuman non-alkohol sesuai SOP perusahaan[cite: 8].</li>
-                    [cite_start]<li>Mengelola stok bahan baku dan berhasil mengurangi waste hingga ±15%[cite: 9].</li>
-                    [cite_start]<li>Menjaga kebersihan area bar dengan tingkat kepatuhan SOP 100%[cite: 9].</li>
+                    <li>Menyiapkan dan menyajikan minuman non-alkohol sesuai SOP perusahaan.</li>
+                    <li>Mengelola stok bahan baku dan berhasil mengurangi waste hingga ±15%.</li>
+                    <li>Menjaga kebersihan area bar dengan tingkat kepatuhan SOP 100%.</li>
                 </ul>
             </div>
 
             <div class="experience-item">
                 <div class="job-title"><span>Barista</span> <span>September 2024 - Januari 2025</span></div>
-                [cite_start]<div class="company-info">Cotti Coffee Pollux Paragon Semarang [cite: 10]</div>
-                <div class="location">Jl. Pemuda No.118, Sekayu, Kec. [cite_start]Semarang Tengah [cite: 11]</div>
+                <div class="company-info">Cotti Coffee Pollux Paragon Semarang</div>
+                <div class="location">Jl. Pemuda No.118, Sekayu, Kec. Semarang Tengah</div>
                 <ul>
-                    [cite_start]<li>Menyajikan berbagai minuman kopi dan teh, menjaga kualitas dan kebersihan area kerja[cite: 11].</li>
-                    [cite_start]<li>Mengelola pesanan dengan efisien dan menciptakan suasana ramah[cite: 12].</li>
-                    [cite_start]<li>Mengelola stok bahan baku dan pemeliharaan peralatan[cite: 13].</li>
+                    <li>Menyajikan berbagai minuman kopi dan teh, menjaga kualitas dan kebersihan area kerja.</li>
+                    <li>Mengelola pesanan dengan efisien dan menciptakan suasana ramah.</li>
+                    <li>Mengelola stok bahan baku dan pemeliharaan peralatan.</li>
                 </ul>
             </div>
 
             <div class="experience-item">
                 <div class="job-title"><span>Admin Purchasing</span> <span>Juli 2023 - Agustus 2024</span></div>
-                [cite_start]<div class="company-info">TOKO KOPI DJUARA [cite: 13]</div>
-                <div class="location">Jl. [cite_start]Pleburan Barat No.10, Semarang Selatan [cite: 14]</div>
+                <div class="company-info">TOKO KOPI DJUARA</div>
+                <div class="location">Jl. Pleburan Barat No.10, Semarang Selatan </div>
                 <ul>
-                    [cite_start]<li>Mengelola proses pembelian, negosiasi dengan pemasok, serta pengawasan inventaris[cite: 14].</li>
-                    [cite_start]<li>Membuat laporan pembelian dan stock menggunakan Microsoft Excel[cite: 15].</li>
-                    [cite_start]<li>Membantu efisiensi biaya operasional melalui kontrol pembelian rutin[cite: 16].</li>
+                    <li>Mengelola proses pembelian, negosiasi dengan pemasok, serta pengawasan inventaris.</li>
+                    <li>Membuat laporan pembelian dan stock menggunakan Microsoft Excel.</li>
+                    <li>Membantu efisiensi biaya operasional melalui kontrol pembelian rutin.</li>
                 </ul>
             </div>
 
             <div class="experience-item">
                 <div class="job-title"><span>Admin Purchasing</span> <span>Januari 2022 - Agustus 2024</span></div>
-                [cite_start]<div class="company-info">LAIV.IDN [cite: 16]</div>
-                <div class="location">Jl. [cite_start]Pleburan Barat No.33, Semarang Selatan [cite: 17]</div>
+                <div class="company-info">LAIV.IDN </div>
+                <div class="location">Jl. Pleburan Barat No.33, Semarang Selatan </div>
                 <ul>
-                    [cite_start]<li>Bertanggung jawab untuk pemilihan vendor, negosiasi harga, dan penyusunan kontrak[cite: 17].</li>
-                    [cite_start]<li>Memastikan kualitas produk dan ketepatan waktu pengiriman[cite: 18].</li>
+                    <li>Bertanggung jawab untuk pemilihan vendor, negosiasi harga, dan penyusunan kontrak.</li>
+                    <li>Memastikan kualitas produk dan ketepatan waktu pengiriman.</li>
                 </ul>
             </div>
 
             <div class="experience-item">
                 <div class="job-title"><span>Store Manager</span> <span>Juni 2021 - Agustus 2024</span></div>
-                [cite_start]<div class="company-info">KOPI REJEKI [cite: 19]</div>
-                <div class="location">Jl. [cite_start]Erlangga Barat 7 No.12, Pleburan [cite: 20]</div>
+                <div class="company-info">KOPI REJEKI </div>
+                <div class="location">Jl. Erlangga Barat 7 No.12, Pleburan </div>
                 <ul>
-                    [cite_start]<li>Mengelola operasional harian toko, pengawasan staf, dan target penjualan[cite: 20].</li>
-                    [cite_start]<li>Menangani keluhan pelanggan dan melaksanakan strategi pemasaran[cite: 21].</li>
+                    <li>Mengelola operasional harian toko, pengawasan staf, dan target penjualan.</li>
+                    <li>Menangani keluhan pelanggan dan melaksanakan strategi pemasaran.</li>
                 </ul>
             </div>
 
             <div class="experience-item">
                 <div class="job-title"><span>Barista</span> <span>Januari 2020 - Juni 2021</span></div>
-                [cite_start]<div class="company-info">KOPI KENANGAN [cite: 22]</div>
-                <div class="location">DP Mall Semarang, Jl. [cite_start]Pemuda No.150 [cite: 23]</div>
+                [cite_start]<div class="company-info">KOPI KENANGAN </div>
+                <div class="location">DP Mall Semarang, Jl. Pemuda No.150 </div>
                 <ul>
-                    [cite_start]<li>Menyajikan minuman berkualitas tinggi dan mengoperasikan mesin espresso[cite: 23, 24].</li>
-                    [cite_start]<li>Mengelola stok bahan baku serta menjaga kebersihan area kerja[cite: 24].</li>
+                    <li>Menyajikan minuman berkualitas tinggi dan mengoperasikan mesin espresso.</li>
+                    <li>Mengelola stok bahan baku serta menjaga kebersihan area kerja.</li>
                 </ul>
             </div>
 
             <div class="experience-item">
                 <div class="job-title"><span>Captain Waiters</span> <span>Mei 2015 - Agustus 2017</span></div>
-                [cite_start]<div class="company-info">KOENO KOENI CAFE & GALERY [cite: 25]</div>
-                <div class="location">Jl. [cite_start]Tabanan No.4, Tegalsari, Candisari [cite: 26]</div>
+                <div class="company-info">KOENO KOENI CAFE & GALERY </div>
+                <div class="location">Jl. Tabanan No.4, Tegalsari, Candisari </div>
                 <ul>
-                    [cite_start]<li>Memimpin tim pelayan untuk pelayanan berkualitas tinggi[cite: 26].</li>
-                    [cite_start]<li>Koordinasi pesanan, pengaturan ruang makan, dan menangani keluhan pelanggan[cite: 27, 28].</li>
+                    <li>Memimpin tim pelayan untuk pelayanan berkualitas tinggi.</li>
+                    <li>Koordinasi pesanan, pengaturan ruang makan, dan menangani keluhan pelanggan.</li>
                 </ul>
             </div>
         </section>
@@ -234,8 +233,8 @@
             <h2>EDUCATION</h2>
             <div class="experience-item">
                 <div class="job-title"><span>Tata Boga</span> <span>2012 - 2015</span></div>
-                [cite_start]<div class="company-info">SMK NEGERI 6 SEMARANG [cite: 29]</div>
-                [cite_start]<p>Mempelajari teknik dasar dan lanjutan dalam memasak, pengolahan bahan makanan, serta presentasi hidangan[cite: 30]. [cite_start]Praktik langsung dalam persiapan menu dan pengembangan resep[cite: 31].</p>
+                <div class="company-info">SMK NEGERI 6 SEMARANG </div>
+                <p>Mempelajari teknik dasar dan lanjutan dalam memasak, pengolahan bahan makanan, serta presentasi hidangan. Praktik langsung dalam persiapan menu dan pengembangan resep.</p>
             </div>
         </section>
 
@@ -243,8 +242,8 @@
             <h2>COURSES AND CERTIFICATES</h2>
             <div class="experience-item">
                 <div class="job-title"><span>Certificate of Competency Serving Food & Beverages</span> <span>2015</span></div>
-                [cite_start]<div class="company-info">SMK 6 Semarang x Crown Plaza Hotel [cite: 32]</div>
-                [cite_start]<p>Memperoleh pengetahuan mendalam tentang praktik penyajian makanan dan standar kebersihan industri F&B[cite: 33].</p>
+                <div class="company-info">SMK 6 Semarang x Crown Plaza Hotel </div>
+                <p>Memperoleh pengetahuan mendalam tentang praktik penyajian makanan dan standar kebersihan industri F&B.</p>
             </div>
         </section>
 
